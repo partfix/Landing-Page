@@ -148,7 +148,7 @@ function Footer() {
   return (
     <footer className='footer'>
       {isOpen ? (
-        <OpenShop closeHour={closeHour} openHour={openHour} /> //we can destructure it directly
+        <OpenShop closeHour={closeHour} openHour={openHour} /> // destructure it directly
       ) :
         <CloseShop openHour={openHour} closeHour={closeHour} />
       }
