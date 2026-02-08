@@ -113,7 +113,7 @@ function Menu() {
 
 function Burger({ dataObj }) {
 
-  // if (props.dataObj.soldOut) return (<p>Sold Out!</p>)   - multiple return rendering
+  // if (props.dataObj.soldOut) return (<p>Sold Out!</p>) - multiple return rendering
 
   const active = { color: 'orangered', fontWeight: '500' }
   const soldOut = { color: '888' }
